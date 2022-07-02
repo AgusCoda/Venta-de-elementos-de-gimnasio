@@ -407,6 +407,13 @@ ul {
     margin-top: 2rem;
 }
 
+.button__2:hover {
+    cursor: pointer;
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+}
+
 /* Catalogo */
 
 .catalogoback {
