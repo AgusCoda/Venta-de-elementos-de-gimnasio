@@ -22,7 +22,6 @@ ul {
     background-color: black;
     color: #e2e8f0;
     padding: 2.5rem 2rem;
-    
 }
   
 .header__content {
@@ -421,7 +420,16 @@ ul {
 
 .izqcat ul a {
     line-height: 4rem;
-    color: black; 
+    color: black;
+    background-image: linear-gradient(black, white);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; 
+}
+
+.izqcat ul a:hover {
+    background-size: 100% 2px;
 }
 
 .mediocat  {
