@@ -51,6 +51,15 @@ ul {
     color: #e2e8f0;
     font-weight: bold;
     font-size: 2.5rem;
+    background-image: linear-gradient(black, white);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.content__navbar li a:hover {
+    background-size: 100% 2px;
 }
 
 /* Main primera parte */
@@ -93,6 +102,12 @@ ul {
     border-radius: 3rem;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.button__1:hover {
+    border: 2rem solid black;
+    background-color: black;
+    color: white;
 }
 
 /* Escalas index */
