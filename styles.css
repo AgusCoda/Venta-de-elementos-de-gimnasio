@@ -141,6 +141,11 @@ ul {
     background-image: url("./images/mancuernas\ 25kg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+.dumbell__escala:hover {
+    transform: translateY(-20px);
 }
 
 .barra__escala {
@@ -151,6 +156,11 @@ ul {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+.barra__escala:hover {
+    transform: translateY(20px);
 }
 
 .cinta__escala {
@@ -161,7 +171,11 @@ ul {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    transition: transform 1s;
+}
 
+.cinta__escala:hover {
+    transform: translateY(-20px);
 }
 
 .discos__escala {
@@ -172,6 +186,11 @@ ul {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+.discos__escala:hover {
+    transform: translateY(20px);
 }
 
 .escala h2 {
